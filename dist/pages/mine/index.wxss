@@ -1,0 +1,91 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/mine/index.less ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.mine-container {
+  background-color: #f0f1f5;
+}
+.mine-container .mine-head {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  margin-top: 22rpx;
+}
+.mine-container .mine-head .mine-avatar {
+  margin-left: 17rpx;
+  margin-right: 9rpx;
+}
+.mine-container .mine-head .mine-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25rpx;
+}
+.mine-container .mine-head .mine-info .mine-nickname {
+  font-family: PingFangSC-regular;
+}
+.mine-container .mine-head .mine-info .mine-edit {
+  font-size: 20rpx;
+  font-family: PingFangSC-regular;
+  color: #b5b0b0;
+  margin-top: 7rpx;
+}
+.mine-container .mine-body {
+  background-color: white;
+  margin-top: 10rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mine-container .mine-body .mine-child {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25rpx;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+}
+.mine-container .mine-body .mine-child .mine-linebefore {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 17rpx;
+}
+.mine-container .mine-body .mine-child .mine-linebefore .line-text {
+  white-space: nowrap;
+  margin-left: 60rpx;
+  margin-top: 24rpx;
+}
+.mine-container .mine-body .mine-child .mine-linebefore .mine-line {
+  width: 44rpx;
+  height: 44rpx;
+}
+.mine-container .mine-body .mine-child .mine-lineback {
+  margin-top: 25rpx;
+  margin-left: 400rpx;
+}
+.mine-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+

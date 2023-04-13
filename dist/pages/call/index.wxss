@@ -1,0 +1,104 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/call/index.less ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.call_bg {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcUAAAOABAMAAAC55XVBAAAAIVBMVEVBMjO7u7sAAACysbFENje7u7tfVFWUj4+6urq2trZ4b3D1KwiiAAAAC3RSTlP//wDb/3X/8vwj/zG0VbEAAAQ+SURBVHic7c+7TUNBAADBCyxIISN8MiIgI+HXhTM3YMltOHAhltwoVZxOGnYq2B37t59n2Mvnfhvv36cB251/t/F6W50x2X0bx9UNsz0extfqhtkePsZ1dcNsu8t4Wt0w3VOPhB4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+GHg09Gno09Gjo0dCjoUdDj4YeDT0aejT0aOjR0KOhR0OPhh4NPRp6NPRo6NHQo6FHQ4+G//F4XZ0w2+4yvlY3zPbwMY6rG2Z7PIzX2+qIye7beP8+ra6YaXf+3cb+7ecZ9vK53/4AEqCYNZeCT64AAAAASUVORK5CYII=) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.top {
+  width: 100vw;
+  height: 130rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top Image {
+  float: left;
+  width: 70rpx;
+  height: 70rpx;
+  margin: 30rpx 10rpx;
+}
+.top .bb2 {
+  text-align: center;
+  color: #fff;
+  font-size: 40rpx;
+  line-height: 130rpx;
+}
+.top .bb3 {
+  width: 90rpx;
+  height: 130rpx;
+  background-color: transparent;
+}
+.middle {
+  width: 400rpx;
+  height: 350rpx;
+  margin: 300rpx auto;
+}
+.middle Image {
+  width: 400rpx;
+  height: 250rpx;
+}
+.middle .text {
+  font-weight: bold;
+  color: #fff;
+  font-size: 42rpx;
+  text-align: center;
+}
+.bottom {
+  width: 600rpx;
+  height: 350rpx;
+  margin: 200rpx auto 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.bottom Image {
+  position: absolute;
+  width: 90rpx;
+  height: 90rpx;
+  margin: 30rpx;
+}
+.bottom .text {
+  margin-top: 150rpx;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.bottom .box1 {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.bottom .box2 {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #E51C23;
+  border-radius: 50%;
+  position: relative;
+}
+.bottom .box3 {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: #000;
+  border-radius: 50%;
+  position: relative;
+}
+

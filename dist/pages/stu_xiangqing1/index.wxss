@@ -1,0 +1,146 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/stu_xiangqing1/index.less ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.activity_image {
+  position: relative;
+  width: 100vw;
+}
+.activity_image Image {
+  width: 100%;
+  display: block;
+}
+.activity_image .activity_absoluted {
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+  width: 250rpx;
+  height: 80rpx;
+  border-radius: 15rpx;
+  line-height: 80rpx;
+  opacity: 0.8;
+  text-align: center;
+  color: #fff;
+  background-color: #cf1322;
+}
+.buwei {
+  width: 100vw;
+  height: 30rpx;
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  border-radius: 20rpx 20rpx 0 0;
+  background-color: #fff;
+}
+.activity_title {
+  font-weight: bold;
+  font-size: 36rpx;
+  line-height: 70rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.activity_text {
+  color: #666;
+  font-size: 26rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+}
+.activity_text Image {
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+  margin: 10rpx;
+}
+.lianxi {
+  width: 95vw;
+  height: 100rpx;
+  margin-top: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  border-top: 2rpx solid #ccc;
+  border-bottom: 2rpx solid #ccc;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 100rpx;
+}
+.lianxi Image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 25rpx;
+}
+.touxiang {
+  border-radius: 100%;
+  float: left;
+  width: 70rpx;
+  height: 70rpx;
+  margin: 15rpx;
+}
+.content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 2rpx solid #ccc;
+}
+.tip {
+  border-bottom: 0;
+}
+.content_title {
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.content_box {
+  width: 640rpx;
+  margin: 20rpx auto 35rpx;
+  border: 2rpx solid #cf1322;
+  border-radius: 15rpx;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.content_text {
+  line-height: 60rpx;
+  padding: 15rpx;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  height: 154rpx;
+  bottom: 0;
+  background-color: #fff;
+}
+.bottom_button {
+  height: 80rpx;
+  width: 675rpx;
+  margin: 20rpx auto;
+  border-radius: 25rpx;
+  background-color: #cf1322;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80rpx;
+}
+.kongbai {
+  width: 100%;
+  height: 150rpx;
+  background-color: #fff;
+}
+

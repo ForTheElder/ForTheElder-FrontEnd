@@ -1,0 +1,81 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/orglist/index.less ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.OrgList {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1vh;
+}
+.OrgList .OrgMsg {
+  border-bottom: 1rpx solid gray;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 32rpx;
+}
+.OrgList .OrgMsg .orgname {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  font-weight: bold;
+  border-top: 5rpx solid #f2f2f2;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgList .OrgMsg .orglogo {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgList .OrgMsg .orglogo .text {
+  font-weight: bold;
+}
+.OrgList .OrgMsg .orgimg {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgList .OrgMsg .orgimg .text {
+  font-weight: bold;
+}
+.OrgList .OrgMsg .orgtel {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  border-bottom: 5rpx solid #f2f2f2;
+  font-weight: bold;
+}
+.OrgList .OrgMsg .orgintro {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgList .OrgMsg .orgintro .text {
+  font-weight: bold;
+}
+.OrgList .OrgMsg .orgintro .intro {
+  margin: 16rpx 0;
+}
+

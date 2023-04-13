@@ -1,0 +1,71 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/orgmessage/index.less ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.OrgMsg {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 32rpx;
+}
+.OrgMsg .orgname {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  font-weight: bold;
+  border-top: 5rpx solid #f2f2f2;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgMsg .orglogo {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgMsg .orglogo .text {
+  font-weight: bold;
+}
+.OrgMsg .orgimg {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgMsg .orgimg .text {
+  font-weight: bold;
+}
+.OrgMsg .orgtel {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  border-bottom: 5rpx solid #f2f2f2;
+  font-weight: bold;
+}
+.OrgMsg .orgintro {
+  margin: 16rpx 0;
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5rpx solid #f2f2f2;
+}
+.OrgMsg .orgintro .text {
+  font-weight: bold;
+}
+.OrgMsg .orgintro .intro {
+  margin: 16rpx 0;
+}
+

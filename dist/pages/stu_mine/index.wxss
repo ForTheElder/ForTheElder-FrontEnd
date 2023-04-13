@@ -1,0 +1,330 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/stu_mine/index.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.mine-container {
+  background-color: #f0f1f5;
+}
+.mine-container .mine-head {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  margin-top: 22rpx;
+}
+.mine-container .mine-head .mine-avatar {
+  margin-left: 17rpx;
+  margin-right: 9rpx;
+}
+.mine-container .mine-head .mine-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25rpx;
+}
+.mine-container .mine-head .mine-info .mine-nickname {
+  font-family: PingFangSC-regular;
+}
+.mine-container .mine-head .mine-info .mine-edit {
+  font-size: 20rpx;
+  font-family: PingFangSC-regular;
+  color: #b5b0b0;
+  margin-top: 7rpx;
+}
+.mine-container .mine-body {
+  background-color: white;
+  margin-top: 10rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mine-container .mine-body .mine-child {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 25rpx;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+}
+.mine-container .mine-body .mine-child .mine-linebefore {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 17rpx;
+}
+.mine-container .mine-body .mine-child .mine-linebefore .line-text {
+  white-space: nowrap;
+  margin-left: 60rpx;
+  margin-top: 24rpx;
+}
+.mine-container .mine-body .mine-child .mine-linebefore .mine-line {
+  width: 44rpx;
+  height: 44rpx;
+}
+.mine-container .mine-body .mine-child .mine-lineback {
+  margin-top: 25rpx;
+  margin-left: 400rpx;
+}
+.mine-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.wrapper-stu-mine .header {
+  position: relative;
+  margin-top: 15rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.wrapper-stu-mine .header .avatar {
+  margin: 20rpx 40rpx;
+}
+.wrapper-stu-mine .header .avatar Image {
+  max-width: 120rpx;
+  max-height: 120rpx;
+}
+.wrapper-stu-mine .header .username {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper-stu-mine .header .username Input {
+  border: 1rpx solid #CECECE;
+  width: 200rpx;
+  border-radius: 10rpx;
+}
+.wrapper-stu-mine .header .username .edit {
+  margin-left: 20rpx;
+}
+.wrapper-stu-mine .header .username .edit Image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 5rpx;
+}
+.wrapper-stu-mine .header .time {
+  position: absolute;
+  top: 40rpx;
+  right: 50rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #666;
+}
+.wrapper-stu-mine .tab {
+  margin: 30rpx auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  color: #666;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.wrapper-stu-mine .tab .active {
+  color: #CF1322;
+}
+.wrapper-stu-mine .info .editInfo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: PingFang SC;
+  font-size: 34rpx;
+}
+.wrapper-stu-mine .info .editInfo .name1,
+.wrapper-stu-mine .info .editInfo .phone1,
+.wrapper-stu-mine .info .editInfo .gender1,
+.wrapper-stu-mine .info .editInfo .birth1,
+.wrapper-stu-mine .info .editInfo .id1,
+.wrapper-stu-mine .info .editInfo .address1 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 60rpx;
+  margin: 0 auto;
+  margin-top: 18rpx;
+  padding: 10rpx;
+  height: 60rpx;
+  width: 650rpx;
+  border: 1rpx solid #F0F0F0;
+  border-radius: 5rpx 5rpx 5rpx 5rpx;
+}
+.wrapper-stu-mine .info .editInfo .name1 .input_info,
+.wrapper-stu-mine .info .editInfo .phone1 .input_info,
+.wrapper-stu-mine .info .editInfo .gender1 .input_info,
+.wrapper-stu-mine .info .editInfo .birth1 .input_info,
+.wrapper-stu-mine .info .editInfo .id1 .input_info,
+.wrapper-stu-mine .info .editInfo .address1 .input_info {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.wrapper-stu-mine .info .editInfo .detail-address1 {
+  margin: 0 auto;
+  margin-top: 30rpx;
+  padding: 10rpx;
+  height: 120rpx;
+  width: 650rpx;
+  border: 1rpx solid #F0F0F0;
+  border-radius: 5rpx 5rpx 5rpx 5rpx;
+}
+.wrapper-stu-mine .info .editInfo .detail-address1 Textarea {
+  width: 100%;
+  height: 100%;
+}
+.wrapper-stu-mine .info .editInfo .submit {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin-top: 40rpx;
+  padding: 15rpx 25rpx;
+  width: 150rpx;
+  text-align: center;
+  background-color: #CF1322;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.wrapper-stu-mine .info .showInfo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: PingFang SC;
+  font-size: 34rpx;
+}
+.wrapper-stu-mine .info .showInfo .name,
+.wrapper-stu-mine .info .showInfo .phone,
+.wrapper-stu-mine .info .showInfo .wechat,
+.wrapper-stu-mine .info .showInfo .gender,
+.wrapper-stu-mine .info .showInfo .birth {
+  line-height: 60rpx;
+  color: #666;
+  margin: 0 auto;
+  margin-top: 18rpx;
+  padding: 10rpx;
+  height: 60rpx;
+  width: 650rpx;
+  background-color: #f0f0f0;
+  opacity: 0.8;
+  border-radius: 10rpx;
+}
+.wrapper-stu-mine .info .showInfo .change-info {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin-top: 40rpx;
+  padding: 15rpx 25rpx;
+  width: 150rpx;
+  text-align: center;
+  background-color: #CF1322;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.wrapper-stu-mine .activities {
+  padding-left: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: PingFang SC;
+  font-size: 32rpx;
+}
+.wrapper-stu-mine .activities .activity {
+  margin-top: 40rpx;
+}
+.wrapper-stu-mine .activities .activity .activity_image {
+  width: 100vw;
+  position: relative;
+}
+.wrapper-stu-mine .activities .activity .activity_image Image {
+  display: block;
+  width: 100%;
+}
+.wrapper-stu-mine .activities .activity .activity_image .activity_absoluted {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #cf1322;
+}
+.wrapper-stu-mine .activities .activity .activity_image .activity_absoluted1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 900%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 50rpx;
+  background-color: #666;
+  z-index: 2;
+  opacity: 0.7;
+}
+.wrapper-stu-mine .activities .activity .activity_name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.wrapper-stu-mine .activities .activity .activity_time,
+.wrapper-stu-mine .activities .activity .activity_area,
+.wrapper-stu-mine .activities .activity .attendance,
+.wrapper-stu-mine .activities .activity .activity_id {
+  color: #747577;
+  font-weight: 500;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+

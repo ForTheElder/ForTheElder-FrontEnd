@@ -1,0 +1,66 @@
+.mine-container{
+    background-color: #f0f1f5;
+    .mine-head{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-top: 22px;
+        .mine-avatar{
+            margin-left: 17px;
+            margin-right: 9px;
+        }
+        .mine-info{
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            .mine-nickname{
+                font-family: PingFangSC-regular;
+            }
+            .mine-edit{
+                font-size: 20px;
+                font-family: PingFangSC-regular;
+                color: rgba(181, 176, 176, 1);
+                margin-top: 7px;
+            }
+        }
+    }
+    .mine-body{
+        background-color: white;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        .mine-child{
+            box-sizing: border-box;
+            padding: 25px;
+            width: 100vw;
+            //height: 71px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            .mine-linebefore{
+                display: flex;
+                flex-direction: row;
+                margin-left: 17px;
+                .line-text{
+                    white-space: nowrap;
+                    margin-left: 60rpx;
+                    margin-top: 24px;
+                }
+                .mine-line{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+            .mine-lineback{
+                // margin-right: 13px;
+                margin-top: 25px;
+                margin-left: 400rpx;
+            }
+        }
+    }
+}
+.mine-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

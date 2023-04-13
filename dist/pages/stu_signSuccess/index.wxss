@@ -1,0 +1,42 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/stu_signSuccess/index.less ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.success-container {
+  width: 100%;
+  height: 100vh;
+}
+.success-container .success-box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.success-container .success-box .signsuccess-one {
+  width: 150rpx;
+  height: 150rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAA/FBMVEXPEyIAAAD////dVmD9+PjWNEH66erPEyLlfofVMT765efXOEXPEyL/AADNEyHOEyLQFCLRFCHSDx7QEiLQEyLPEiHPEyHQFCLPEyLPEiLOEyLPECDPEiPPEyLNEiLRFCTOEyL77O3VFSDPEyLPEyLPEyLQEiLQFCHPEyHTEiPQEiTPEyLOESPQFCHPEyLOEyPPFCLQEiLQEyLQEyLQEyHPEyLPEyLQFCLPEyLOEyHPFCLPFCPQGSfPFSTuq7DxvMHtpKrQFyXwt7vvsbb++/z87e/SIC7fZG3rm6HaSVT98/TniZDplJrhbnfdV2LzwsbsoqfeXWfvr7TojJRI+y5kAAAAVHRSTlP/AP//////9v////+rAVzbjScRwvJFa5zq0L0gOvlxMub/GJSls2K3xh0r/Ulz7l7EcdLIbJb+cmpd6/////////////////////////////////+ijeI8AAADAklEQVR4nLWa13LbMBBF10ocxYl671LUe++Skzi91///Fy9IqpNE094Xz4jjczQUCSwWgBuhZLvTkG8YTOXn83wqOPSFpt2s2H8KCNr1WdMLF/E2Z/W2vqDYq8Uu4bvEar2ijiCyqq6d6WbW1VVEUdAqRHl0M9FCS0FQHk3E8CyTUVlWMMiI41kyAylBLtmR4wN0kjlhgX85lsWzjJd+MUG4ooJnqYRFBPGGKh+gEecLAml1PkA6wBMkSjp8gFLCXbDo6/EB+gs3wcJmUJON99RwIkhof3+W/sldOhYENO//LqXjX/pIENd6fo6TPnpaD4KwxvN/nsbhjdsL/Mrvr10q+1FjL1hekw+wPBfklMY354x3Y+tOkLwuHyB5KhhIj/+8dKwZyBSUJecvkWTMWdQUjK7PBxgdBC2J+V08E6PWMAQFCj5AYSeICNY/znn50+7TKKvImGClzX/l+Wz3+coSVPX5ng9/bS5UTUGRW3/y+Wj4dXlljZUxCnrX4Hs83z5dXusZgtpV+E+f2FysMUHbpf7X5EOsjYI6HR+gjoIZIR9mKGiq8295fGjeQFa9FLp9xuODNwtdSj4gfkrKR3yIlI94Hykf8UNSPuKDpHzEp0j5iM+T8hE/d7z2/7s+H/GOgh8ez3NtPuKdbtEXBrEx3EnxEW//I2/+mJgLw90LKT7iHR7Ttybn3CDLR7zDi7axNUjzEe80VNgZ5PmIdxzsNq/PDQp8xDsP1/dnBhU+4l0mnFODEh/xblPm/fuDQY2PU6b7pL83qPHZpM8pW/5Zho/WXzm+Uba4F14P7yyyyvc3Cy9O6XhskOYbpSOv+D0YpPlm8cst3x/eqPKt8p27ANkaBgW+tQDhL6GYQYG/W0IJLAK3v1X4+0WgwDJ2+1WBv1/Gki/E6VsJ5M0Q+nYOeUOKvqVG3xQkb2vSN2bJW8v0zXH69j79BgX9Fgv9JhH9Nhf9Rh39ViP9Zin9di+GeMOahXjLHUN9aABDfOyBhfjghhHaoydmaA/PWFE//vMIn4xMK7hYOA0AAAAASUVORK5CYII=);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.success-container .success-box .signsuccess-two {
+  margin-top: 45rpx;
+  font-size: medium;
+  margin-bottom: 38rpx;
+}
+.success-container .success-box .signsuccess-three {
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+

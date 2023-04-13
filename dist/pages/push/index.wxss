@@ -1,0 +1,81 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/push/index.less ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(246, 246, 246);
+}
+.push_btns {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.push_btn {
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #ccc;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.5);
+  border-radius: 15rpx;
+  margin-top: 20rpx;
+  font-size: 32rpx;
+}
+.active2 {
+  color: #fff;
+  background-color: #bd3124;
+  border: 2rpx solid #bd3124;
+  -webkit-box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.5);
+}
+.show {
+  width: 100vw;
+  min-height: 100vh;
+  margin-top: 120rpx;
+}
+.hidden {
+  display: none;
+}
+.boxxs {
+  width: 680rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: auto;
+  margin: 20rpx auto;
+}
+.boxxs .boxx {
+  width: 270rpx;
+  margin: 10rpx 35rpx;
+}
+.boxxs .boxx Image {
+  width: 270rpx;
+  height: 270rpx;
+  border-radius: 15rpx;
+}
+.boxxs .boxx .p1 {
+  width: 270rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+

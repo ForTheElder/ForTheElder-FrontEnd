@@ -1,0 +1,73 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/@tarojs/webpack5-runner/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/editInfo/index.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.edit-container {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.edit-container .edit-head {
+  width: 100vw;
+  height: 30vh;
+}
+.edit-container .edit-head .edit-box {
+  margin-top: 80rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.edit-container .edit-head .edit-box .edit-avatar {
+  width: 222rpx;
+  height: 222rpx;
+}
+.edit-container .edit-head .edit-box .edit-text {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+.edit-container .edit-body .edit-line {
+  width: 100vw;
+  height: 80rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1rpx solid #F5F5F5;
+  position: relative;
+}
+.edit-container .edit-body .edit-line .edit-title {
+  line-height: 80rpx;
+  margin-left: 22rpx;
+}
+.edit-container .edit-body .edit-line .edit-else {
+  position: absolute;
+  right: 0rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.edit-container .edit-body .edit-line .edit-else .edit-info {
+  color: #BFBFBF;
+  white-space: nowrap;
+  font-size: small;
+  line-height: 80rpx;
+}
+.edit-container .edit-body .edit-line .edit-else .edit-back {
+  width: 40rpx;
+  height: 40rpx;
+}
+.edit-img {
+  width: 100%;
+  height: 100%;
+}
+
