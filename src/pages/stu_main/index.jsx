@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Taro from '@tarojs/taro'
 import { View, Image } from '@tarojs/components'
 import './index.less'
-import bg1 from '../../assets/main/bg1.png'
-import bg2 from '../../assets/main/bg2.png'
 import { Fetch } from '../../service/fetch'
 
 
@@ -156,7 +154,7 @@ export default class Main extends Component {
             
             <View className='activity_box'>
               <View className='activity_image'>
-                <Image src={bg1} alt=''></Image>
+                <Image src='http://rt23tifhy.hb-bkt.clouddn.com/bg1.png' alt=''></Image>
                 <View className='activity_absoluted'>活动报名中</View>
               </View>
               <View className='activity_title'>家庭公益服务（帮助理发）</View>
@@ -166,7 +164,7 @@ export default class Main extends Component {
             </View>
             <View className='activity_box'>
               <View className='activity_image'>
-                <Image src={bg1} alt=''></Image>
+                <Image src='http://rt23tifhy.hb-bkt.clouddn.com/bg1.png' alt=''></Image>
                 <View className='activity_absoluted'>活动报名中</View>
               </View>
               <View className='activity_title'>代买代办</View>
@@ -193,7 +191,7 @@ export default class Main extends Component {
               })}
             <View className='activity_box'>
               <View className='activity_image'>
-                <Image src={bg2} alt=''></Image>
+                <Image src='http://rt23tifhy.hb-bkt.clouddn.com/bg2.png' alt=''></Image>
                 <View className='activity_absoluted'>活动报名中</View>
               </View>
               <View className='activity_title'>社区公益服务大集</View>
@@ -203,7 +201,7 @@ export default class Main extends Component {
             </View>
             <View className='activity_box'>
               <View className='activity_image'>
-                <Image src={bg2} alt=''></Image>
+                <Image src='http://rt23tifhy.hb-bkt.clouddn.com/bg2.png' alt=''></Image>
                 <View className='activity_absoluted'>活动报名中</View>
               </View>
               <View className='activity_title'>社区公益服务大集</View>

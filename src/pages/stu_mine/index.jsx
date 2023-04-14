@@ -3,7 +3,6 @@ import { View, Input, Image, Button, Picker, Textarea } from '@tarojs/components
 import Taro from '@tarojs/taro'
 import mineAvatar from "../../assets/stu_mine/mineAvatar.png"
 import editName from "../../assets/stu_mine/editName.png"
-import activity1 from "../../assets/stu_mine/activity1.png"
 import './index.less'
 import mine_avatar from '../../assets/mine/mine_avatar.png'
 import second from '../../assets/mine/information_avatar.png'
@@ -93,7 +92,7 @@ export function StuMine() {
 
   const [activities, setActivities] = useState([
     {
-      img: activity1,
+      img: 'http://rt23tifhy.hb-bkt.clouddn.com/activity1.png',
       activity_name: '社区公益服务大集1',
       activity_time: '2021/05/06   09:00-12:00',
       activity_area: '北京市东城区西花市南里东区15号楼北侧 ',
@@ -103,7 +102,7 @@ export function StuMine() {
       status: '已报名'
     },
     {
-      img: activity1,
+      img: 'http://rt23tifhy.hb-bkt.clouddn.com/activity1.png',
       activity_name: '社区公益服务大集2',
       activity_time: '2021/05/05   09:00-12:00',
       activity_area: '北京市东城区西花市南里东区15号楼北侧 ',

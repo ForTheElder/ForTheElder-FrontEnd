@@ -6,7 +6,7 @@ import './index.less'
 export default function Login() {
 
   const [selector] = useState([
-    '老人','学生'
+    '老人','服务者'
   ])
   const [selected,setSelected] = useState('老人')
   const [code,setCode] = useState('')
@@ -51,7 +51,7 @@ export default function Login() {
 
     console.log(data)
     Taro.request({
-      url: 'http://124.70.208.213:9001/user/user/login',
+      url: 'https://www.q-yt.top/user/user/login',
       data,
       method: 'POST',
       header
@@ -102,7 +102,7 @@ export default function Login() {
     }
 
     Taro.request({
-      url: `http://124.70.208.213:9001/user/user/sendCode/${phone}`,
+      url: `https://www.q-yt.top/user/user/sendCode/${phone}`,
       method: 'GET',
       header,
     }).then(res => {
@@ -123,9 +123,7 @@ export default function Login() {
 
     let phone = ''
     let password = ''
-    console.log(11111)
     let type = selected === '老人'?'0':'1'
-    console.log(22222)
     if(telRef2 && telRef2.current.value.length === 11){
       phone = telRef2.current.value
     }else return
@@ -152,7 +150,7 @@ export default function Login() {
     console.log(data)
 
     Taro.request({
-      url: 'http://124.70.208.213:9001/user/user/register',
+      url: 'https://www.q-yt.top/user/user/register',
       data,
       method: 'POST',
       header,

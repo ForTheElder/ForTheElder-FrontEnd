@@ -31,6 +31,7 @@
           flex-direction: column;
   -webkit-box-shadow: 1vw 1rpx 13rpx 1rpx grey;
           box-shadow: 1vw 1rpx 13rpx 1rpx grey;
+  margin-bottom: 10vh;
 }
 .main-container .main-body .main-one {
   display: -webkit-flex;

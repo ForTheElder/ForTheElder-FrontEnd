@@ -18,7 +18,7 @@
 
 
 
-var preHttp = 'http://124.70.208.213:9001';
+var preHttp = 'https://www.q-yt.top';
 var token = _tarojs_taro__WEBPACK_IMPORTED_MODULE_0___default().getStorageSync('token');
 function Fetch(_x) {
   return _Fetch.apply(this, arguments);
@@ -155,26 +155,6 @@ module.exports = __webpack_require__.p + "assets/main/address.png";
 
 /***/ }),
 
-/***/ "./src/assets/main/bg1.png":
-/*!*********************************!*\
-  !*** ./src/assets/main/bg1.png ***!
-  \*********************************/
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/main/bg1.png";
-
-/***/ }),
-
-/***/ "./src/assets/main/bg2.png":
-/*!*********************************!*\
-  !*** ./src/assets/main/bg2.png ***!
-  \*********************************/
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/main/bg2.png";
-
-/***/ }),
-
 /***/ "./src/assets/main/dianhua.png":
 /*!*************************************!*\
   !*** ./src/assets/main/dianhua.png ***!
@@ -202,16 +182,6 @@ module.exports = __webpack_require__.p + "assets/main/shijian.png";
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/main/touxiang.jpg";
-
-/***/ }),
-
-/***/ "./src/assets/main/yonghu.png":
-/*!************************************!*\
-  !*** ./src/assets/main/yonghu.png ***!
-  \************************************/
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/main/yonghu.png";
 
 /***/ }),
 

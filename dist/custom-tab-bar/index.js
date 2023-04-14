@@ -38,36 +38,30 @@ function CustomTabBar() {
   var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
       pagePath: 'pages/main/index',
       text: '首页',
-      iconPath: '/assets/tab/home.png',
-      selectedIconPath: '/assets/tab/home_selected.png'
+      iconPath: '/assets/tab/home.png'
     }, {
       pagePath: 'pages/order/index',
       text: '订单',
-      iconPath: '/assets/tab/sort.png',
-      selectedIconPath: '/assets/tab/sort_selected.png'
+      iconPath: '/assets/tab/sort.png'
     }, {
       pagePath: 'pages/stu_mine/index',
       text: '我的',
-      iconPath: '/assets/tab/user.png',
-      selectedIconPath: '/assets/tab/user_selected.png'
+      iconPath: '/assets/tab/user.png'
     }]),
     _useState6 = (0,D_web_work_e_elder_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState5, 1),
     elder = _useState6[0];
   var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([{
       pagePath: 'pages/stu_main/index',
       text: '首页',
-      iconPath: '/assets/tab/home.png',
-      selectedIconPath: '/assets/tab/home_selected.png'
+      iconPath: '/assets/tab/home.png'
     }, {
       pagePath: 'pages/stu_signIn/index',
       text: '签到',
-      iconPath: '/assets/tab/location.png',
-      selectedIconPath: '/assets/tab/location_selected.png'
+      iconPath: '/assets/tab/location.png'
     }, {
       pagePath: 'pages/stu_mine/index',
       text: '我的',
-      iconPath: '/assets/tab/user.png',
-      selectedIconPath: '/assets/tab/user_selected.png'
+      iconPath: '/assets/tab/user.png'
     }]),
     _useState8 = (0,D_web_work_e_elder_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState7, 1),
     student = _useState8[0];

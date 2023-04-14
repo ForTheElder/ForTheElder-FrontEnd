@@ -13,20 +13,17 @@ export default function CustomTabBar() {
             pagePath: 'pages/main/index',
             text:'首页',
             iconPath: '/assets/tab/home.png',
-            selectedIconPath: '/assets/tab/home_selected.png'
         },
         {
             pagePath: 'pages/order/index',
             text:'订单',
             iconPath: '/assets/tab/sort.png',
-            selectedIconPath: '/assets/tab/sort_selected.png',
     
         },
         {
             pagePath: 'pages/stu_mine/index',
             text:'我的',
             iconPath: '/assets/tab/user.png',
-            selectedIconPath: '/assets/tab/user_selected.png'
         }
     ])
 
@@ -35,20 +32,17 @@ export default function CustomTabBar() {
             pagePath: 'pages/stu_main/index',
             text:'首页',
             iconPath: '/assets/tab/home.png',
-            selectedIconPath: '/assets/tab/home_selected.png'
         },
         {
             pagePath: 'pages/stu_signIn/index',
             text:'签到',
             iconPath: '/assets/tab/location.png',
-            selectedIconPath: '/assets/tab/location_selected.png',
     
         },
         {
             pagePath: 'pages/stu_mine/index',
             text:'我的',
             iconPath: '/assets/tab/user.png',
-            selectedIconPath: '/assets/tab/user_selected.png'
         }
     ])
 

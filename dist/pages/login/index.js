@@ -30,7 +30,7 @@
 
 
 function Login() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(['老人', '学生']),
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(['老人', '服务者']),
     _useState2 = (0,D_web_work_e_elder_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState, 1),
     selector = _useState2[0];
   var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('老人'),
@@ -94,7 +94,7 @@ function Login() {
               };
               console.log(data);
               _tarojs_taro__WEBPACK_IMPORTED_MODULE_1___default().request({
-                url: 'http://124.70.208.213:9001/user/user/login',
+                url: 'https://www.q-yt.top/user/user/login',
                 data: data,
                 method: 'POST',
                 header: header
@@ -166,7 +166,7 @@ function Login() {
                 'content-type': 'application/json'
               };
               _tarojs_taro__WEBPACK_IMPORTED_MODULE_1___default().request({
-                url: "http://124.70.208.213:9001/user/user/sendCode/".concat(phone),
+                url: "https://www.q-yt.top/user/user/sendCode/".concat(phone),
                 method: 'GET',
                 header: header
               }).then(function (res) {
@@ -244,7 +244,7 @@ function Login() {
               };
               console.log(data);
               _tarojs_taro__WEBPACK_IMPORTED_MODULE_1___default().request({
-                url: 'http://124.70.208.213:9001/user/user/register',
+                url: 'https://www.q-yt.top/user/user/register',
                 data: data,
                 method: 'POST',
                 header: header

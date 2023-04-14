@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro';
 
 
-const preHttp = 'http://124.70.208.213:9001';
+const preHttp = 'https://www.q-yt.top';
 let token = Taro.getStorageSync('token')
 export async function Fetch(url, data = {}, method = 'POST'){
   console.log(url,data,method,token)

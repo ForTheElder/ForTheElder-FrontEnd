@@ -2,13 +2,8 @@ import React, { Component, useState } from 'react'
 import Taro from '@tarojs/taro'
 import { View, Image, Picker, Input, Text, Textarea, Checkbox } from '@tarojs/components'
 import './index.less'
-import bg1 from '../../assets/main/bg1.png'
-import bg2 from '../../assets/main/bg2.png'
 import shijian from '../../assets/main/shijian.png'
-import address from '../../assets/main/address.png'
-import yonghu from '../../assets/main/yonghu.png'
-import dianhua from '../../assets/main/dianhua.png'
-import touxiang from '../../assets/main/touxiang.jpg'
+
 
 
 export default function Baoming() {
@@ -101,7 +96,7 @@ export default function Baoming() {
     <View className='main_container'>
       <View className="activity_image">
         <View className="activity_absoluted">公益助老活动</View>
-        <Image src={bg1} alt=''></Image>
+        <Image src='http://rt23tifhy.hb-bkt.clouddn.com/bg1.png' alt=''></Image>
         {/* <View className="activity_absoluted">活动报名中</View> */}
         <View className="buwei"></View>
       </View>

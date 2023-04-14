@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Taro from '@tarojs/taro'
 import { View, Image } from '@tarojs/components'
 import './index.less'
-import banner from '../../assets/main/banner.png'
 import first from '../../assets/main/first.png'
 import second from '../../assets/main/second.png'
 import third from '../../assets/main/third.png'
@@ -25,7 +24,7 @@ export default class Main extends Component {
   render() {
     return (
       <View className='main-container'>
-        <View className='main-head'><Image className='banner-img' src={banner}></Image></View>
+        <View className='main-head'><Image className='banner-img' src='http://rt23tifhy.hb-bkt.clouddn.com/banner.png'></Image></View>
         <View className='main-body'>
           <View className='main-one'>
             <View className='main-line' onClick={this.toPush.bind(this)}>
